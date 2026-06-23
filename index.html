@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | New Valour</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">New Valour</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Professional Portfolio</p>
+          <h1>Designing modern experiences that feel effortless.</h1>
+          <p>I'm a creative developer focused on building polished digital products, brand identities, and standout web experiences for ambitious teams.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Contact Me</a>
+            <a class="button button-secondary" href="#work">See Projects</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-inner">
+            <h2>Ready to build your next project?</h2>
+            <p>UI & UX design, frontend development, brand strategy, and responsive performance with fast delivery.</p>
+            <ul class="hero-stats">
+              <li><strong>8+</strong> years experience</li>
+              <li><strong>45+</strong> projects delivered</li>
+              <li><strong>100%</strong> client satisfaction</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container section-head">
+        <p class="eyebrow">About Me</p>
+        <h2>Bringing thoughtful design and focused development together.</h2>
+      </div>
+      <div class="container about-grid">
+        <div>
+          <p>I partner with businesses and startups to create clean, reliable digital products. I specialize in frontend development, visual systems, and interactive experiences that help brands connect with their audience.</p>
+          <p>My process prioritizes clarity, speed, and collaboration so every project feels intuitive from concept to launch.</p>
+        </div>
+        <div class="skills-panel">
+          <div>
+            <h3>Core Skills</h3>
+            <ul>
+              <li>Visual Design & Brand Systems</li>
+              <li>Responsive Web Development</li>
+              <li>Interaction & Motion</li>
+              <li>Performance Optimization</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Tools I Use</h3>
+            <ul>
+              <li>Figma / Adobe XD</li>
+              <li>HTML, CSS, JavaScript</li>
+              <li>React / Svelte</li>
+              <li>Tailwind / Styled Components</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="container section-head">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Projects that balance aesthetics with measurable results.</h2>
+      </div>
+      <div class="container project-grid">
+        <article class="project-card">
+          <div class="project-meta">Brand Identity</div>
+          <h3>Edge Marketing</h3>
+          <p>A clean website and visual language for a modern marketing agency, created to improve lead generation and brand recognition.</p>
+        </article>
+        <article class="project-card">
+          <div class="project-meta">Web Application</div>
+          <h3>Flow Finance</h3>
+          <p>Responsive dashboard experience with polished interactions and streamlined data visualization for a fintech startup.</p>
+        </article>
+        <article class="project-card">
+          <div class="project-meta">Product Launch</div>
+          <h3>Pulse Studio</h3>
+          <p>Landing page design optimized for conversions, supporting a new product launch with fast loading and clear messaging.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container section-head">
+        <p class="eyebrow">Services</p>
+        <h2>How I help teams move ideas forward.</h2>
+      </div>
+      <div class="container service-grid">
+        <div class="service-card">
+          <h3>Design Systems</h3>
+          <p>Crafted visual systems that scale across products, supporting consistent experiences and efficient delivery.</p>
+        </div>
+        <div class="service-card">
+          <h3>Web Development</h3>
+          <p>Building accessible, performant websites and apps with modern frontend architecture that feels reliable.</p>
+        </div>
+        <div class="service-card">
+          <h3>Product Strategy</h3>
+          <p>Translating user goals and business objectives into clear product direction and actionable digital solutions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Get In Touch</p>
+          <h2>Let's make something great together.</h2>
+          <p>Whether it's a new website, product refresh, or brand project, I'm available for new collaborations.</p>
+          <div class="contact-details">
+            <p><strong>Email:</strong> hello@newvalour.com</p>
+            <p><strong>Location:</strong> Remote / Worldwide</p>
+          </div>
+        </div>
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" placeholder="Your name" />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="Your email" />
+          </label>
+          <label>
+            Message
+            <textarea rows="5" placeholder="Tell me about your project"></textarea>
+          </label>
+          <button class="button button-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 New Valour. Built with clean design and thoughtful detail.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#work">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
